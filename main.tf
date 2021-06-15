@@ -9,12 +9,4 @@ module "s3-webapp" {
   prefix = var.prefix
   version = "1.0.0"
   
-  tags    = {
-    Name  = "sentinel-policy-testing"
-    ttl   = "24h"
-    owner = "RoseZhan"
-    se-region = "C1"
-    purpose   = "testing"
-    terraform = "True"
-  }
 }
