@@ -11,10 +11,10 @@ module "s3-webapp" {
   
   tags    = {
     Name  = "sentinel-policy-testing"
-    ttl   = 7
-    owner = "Rose Zhan"
-    se-region = "South"
+    ttl   = "24h"
+    owner = "RoseZhan"
+    se-region = "C1"
     purpose   = "testing"
-    terraform = "true"
+    terraform = "True"
   }
 }
