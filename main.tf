@@ -8,4 +8,8 @@ module "s3-webapp" {
   region = var.region
   prefix = var.prefix
   version = "1.0.0"
+  
+  tags    = {
+    Name  = "sentinel-policy-testing"
+  }
 }
